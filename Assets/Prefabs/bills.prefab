@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4774010914536572996}
   - component: {fileID: 2932251847543387842}
-  - component: {fileID: 4883056863837741580}
+  - component: {fileID: 3676245455639063140}
   m_Layer: 0
   m_Name: GlowCircle
   m_TagString: Untagged
@@ -118,7 +118,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.041976642, y: 0.041976642, z: 0.041976642}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 21748058197980770}
@@ -173,7 +173,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: ca76ebd2bbc0544428d8fb443b15686f, type: 3}
-  m_Color: {r: 0.18888468, g: 1, b: 0, a: 0.29803923}
+  m_Color: {r: 0.18888468, g: 1, b: 0, a: 0.6509804}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -182,7 +182,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &4883056863837741580
+--- !u!114 &3676245455639063140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3233685099393898597}
   - component: {fileID: 8976794224004802170}
-  - component: {fileID: 3566988467970609337}
+  - component: {fileID: 7067389519207061463}
   m_Layer: 0
   m_Name: GlowCircle (1)
   m_TagString: Untagged
@@ -225,7 +225,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.037597947, y: 0.037597947, z: 0.037597947}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 21748058197980770}
@@ -280,7 +280,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: ca76ebd2bbc0544428d8fb443b15686f, type: 3}
-  m_Color: {r: 0.18888468, g: 1, b: 0, a: 0.29803923}
+  m_Color: {r: 0.18888468, g: 1, b: 0, a: 0.6509804}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -289,7 +289,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3566988467970609337
+--- !u!114 &7067389519207061463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -591,7 +591,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 1.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2

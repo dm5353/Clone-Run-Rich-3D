@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[ExecuteAlways]
 public class PulseEffect : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
@@ -9,7 +8,14 @@ public class PulseEffect : MonoBehaviour
 
     private Vector3 baseScale;
 
-    private void Start() => baseScale = transform.localScale;
+    private void Start()
+    {
+        transform.localScale = new Vector3(0.1f,0.1f,0.1f);
+        minScale = 0.8f;
+        maxScale = 1.2f;
+
+        baseScale = transform.localScale;
+    }
 
     private void Update()
     {
